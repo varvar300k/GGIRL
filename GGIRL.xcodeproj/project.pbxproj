@@ -359,10 +359,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F958B265229EA00300ABD5C7 /* Logboard.framework in Frameworks */,
-				F958B266229EA00300ABD5C7 /* RxDataSources.framework in Frameworks */,
-				F958B267229EA00300ABD5C7 /* RxCocoa.framework in Frameworks */,
 				F958B268229EA00300ABD5C7 /* RxSwift.framework in Frameworks */,
+				F958B267229EA00300ABD5C7 /* RxCocoa.framework in Frameworks */,
 				F958B269229EA00300ABD5C7 /* Starscream.framework in Frameworks */,
+				F958B266229EA00300ABD5C7 /* RxDataSources.framework in Frameworks */,
 				F958B26A229EA00300ABD5C7 /* HaishinKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -939,8 +939,8 @@
 				F9141F6A22120AE8003F1DA7 /* Sources */,
 				F9141F6B22120AE8003F1DA7 /* Frameworks */,
 				F9141F6C22120AE8003F1DA7 /* Resources */,
-				F934EA97229EEF3600C3811D /* ShellScript */,
 				F958B24C229E9C7A00ABD5C7 /* ShellScript */,
+				F934EA97229EEF3600C3811D /* ShellScript */,
 				F90B8D49221AF66C00F415B7 /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -1111,6 +1111,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/RxDataSources.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Starscream.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/HaishinKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Logboard.framework",
 			);
 			outputFileListPaths = (
 			);
