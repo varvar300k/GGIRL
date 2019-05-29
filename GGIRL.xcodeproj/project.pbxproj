@@ -939,6 +939,7 @@
 				F9141F6A22120AE8003F1DA7 /* Sources */,
 				F9141F6B22120AE8003F1DA7 /* Frameworks */,
 				F9141F6C22120AE8003F1DA7 /* Resources */,
+				F934EA97229EEF3600C3811D /* ShellScript */,
 				F958B24C229E9C7A00ABD5C7 /* ShellScript */,
 				F90B8D49221AF66C00F415B7 /* Embed Frameworks */,
 			);
@@ -1080,6 +1081,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		F934EA97229EEF3600C3811D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh /Users/varvar/Development/GGIRL/scripts/updateBuildVersion.sh\n";
+		};
 		F958B24C229E9C7A00ABD5C7 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
